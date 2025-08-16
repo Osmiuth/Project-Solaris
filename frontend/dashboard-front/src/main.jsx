@@ -8,11 +8,14 @@ import CssBaseline from "@mui/material/CssBaseline";
 
 let theme = createTheme({
   palette: {
+    background: {
+      default: "#000000"
+    },
     primary: {
-      main: '#0052cc',
+      main: '#000000ff',
     },
     secondary: {
-      main: '#edf2ff',
+      main: '#0048ffff',
     },
   },
 });
